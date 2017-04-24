@@ -34,17 +34,14 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Bridge.EventEmitter3.xml</DocumentationFile>
+    <NoWarn>0626</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="App.cs" />
+    <Compile Include="EventEmitter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Bridge\output\readme.txt" />
-    <Content Include="Bridge\www\demo.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Bridge\bridge.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
